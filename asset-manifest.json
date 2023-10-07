@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Restaurant/static/css/main.6adc372d.css",
+    "main.js": "/Restaurant/static/js/main.a8be6a4e.js",
+    "static/media/rest.mp4": "/Restaurant/static/media/rest.3675bf255531b38cf3e1.mp4",
+    "static/media/fa-solid-900.ttf": "/Restaurant/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/Restaurant/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/Restaurant/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/Restaurant/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/Restaurant/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/fa-regular-400.woff2": "/Restaurant/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/food.jpg": "/Restaurant/static/media/food.73dfa82a168acbbd6764.jpg",
+    "static/media/food2.jpg": "/Restaurant/static/media/food2.3485ae7b453fba3e13e7.jpg",
+    "static/media/pasta.jpg": "/Restaurant/static/media/pasta.2ebae58ef4d5c65bfb41.jpg",
+    "static/media/skena.jpg": "/Restaurant/static/media/skena.b59d790747e99098aebd.jpg",
+    "static/media/images (2).jpg": "/Restaurant/static/media/images (2).c0efe0c885429bd822a1.jpg",
+    "static/media/food1.jpg": "/Restaurant/static/media/food1.b57cf5583bbeb4b49e81.jpg",
+    "static/media/pizza.jpg": "/Restaurant/static/media/pizza.b9906796cd3c5be87907.jpg",
+    "static/media/food3.jpg": "/Restaurant/static/media/food3.37b0b5ef51ade737158c.jpg",
+    "static/media/download (1).jpg": "/Restaurant/static/media/download (1).ef0f332788e3941cc84a.jpg",
+    "static/media/fa-v4compatibility.ttf": "/Restaurant/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Restaurant/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/Restaurant/index.html",
+    "main.6adc372d.css.map": "/Restaurant/static/css/main.6adc372d.css.map",
+    "main.a8be6a4e.js.map": "/Restaurant/static/js/main.a8be6a4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6adc372d.css",
+    "static/js/main.a8be6a4e.js"
+  ]
+}

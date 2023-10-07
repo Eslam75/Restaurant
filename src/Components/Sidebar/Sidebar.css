@@ -1,0 +1,56 @@
+.Sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(149, 255, 0);
+    width: 80%;
+    z-index:4632 ;
+    height: 100vh;
+    transform: translateX(100%);
+z-index: 99;
+    transition: .4s;
+
+}
+.activeSidebar{
+    transform: translateX(0%);
+
+    display: block;
+}
+.sidemenulist{
+    height: 100%;
+    
+}
+
+.sidemenulist ul {
+    background-color: red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+.sidemenulist ul li{
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none    ;
+    padding: 10px 0;
+    font-size: 35px;
+    position: relative;
+}
+.sidemenulist ul li::after{
+    position: absolute;
+    transition: .4s;
+    content: "";
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: antiquewhite;
+    display: none;
+
+}
+.sidemenulist ul li:hover:after{
+    display: block;
+}

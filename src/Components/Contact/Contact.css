@@ -1,0 +1,110 @@
+.Contact{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subscribe{
+    width: 50%;
+    height: 50%;
+    border: 2px solid gold;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#fffform{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin:10px 0 ;
+    width: 50%;
+    padding: 10px ;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.538);
+    text-transform: capitalize;
+}
+
+.btttn{
+    text-transform: capitalize;
+    
+}
+
+.subscribe h1{
+    text-transform: capitalize;
+}
+.contactUs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.oneContact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 30px 10px;
+}
+.oneContact ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.oneContact ul li{
+    list-style: none;
+}
+.oneContact h1{
+    text-transform: uppercase;
+}
+#twocontent{
+    margin-top: 30px;
+}
+
+.socialIcons{
+    display: flex;
+
+    width: 100%;
+    justify-content: center;
+}
+.socialIcons p{
+    margin: 0 10px;
+    font-size: 30px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color:white ;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+
+}
+@media (max-width:767px){
+
+    .subscribe{
+        width: 90%;
+
+        height: auto;
+    }
+    .subscribe #fffform input{
+        width: 80%;
+    }.contactUs{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+}

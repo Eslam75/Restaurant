@@ -1,0 +1,60 @@
+.Awards{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px ;
+}
+.leftAwardSide,.rightAwardSide{
+    width: 50%;
+}
+.leftAwardSide>h1{
+    color: goldenrod;
+}
+.prize{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.contentPrize{
+    line-height: 1.6;
+}
+
+.id p{
+
+    font-size: 30px;
+}
+.winn{
+    text-transform: capitalize;
+    color: goldenrod;
+}
+.rightAwardSide img{
+width: 80%;
+height: 100%;
+}
+@media (max-width:767px){
+    .Awards{
+        display: flex;
+        flex-direction: column;
+    }.leftAwardSide,.rightAwardSide{
+        width: 100%;
+        height: 50vh;
+    }
+    .leftAwardSide{
+        text-align: center;
+    }
+.leftAwardSide>h1{
+    padding: 20px 0;
+}
+
+    .prize{
+        width: 100%;
+        text-align: center;
+    }.rightAwardSide img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,81 @@
+.AboutUs{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    direction: rtl;
+    
+    justify-content: flex-start;
+    padding: 0 15px;
+}
+
+     #hihst{
+        color: red;
+        position: relative;
+        text-transform: capitalize;
+        font-size: 25px;
+       
+    }
+    
+     #hihst::after {
+    
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 6px;
+    width: 25px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    }
+         #hihst::before {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 30px;
+            width: 50px;
+            height: 3px;
+            background-color: white;
+            border: 2px solid white;
+        }
+
+
+.history{
+    
+        padding: 0 30px;
+    
+    
+}
+.AboutUs button{
+    background-color: beige;
+    padding: 10px 15px;
+    border: none;
+}
+
+.AboutUs p{
+    font-size: 20px;
+    
+}
+@media (max-width:767px) {
+    .AboutUs{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .about,.history{
+        margin: 10px 0;
+    }
+    .pinter::after,.pinter::before{
+        display: none;
+    }
+
+}

@@ -1,0 +1,98 @@
+.MenuToday{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+.MenuToday >h1{
+    color: red;
+    text-align: center;
+}
+.menupara{
+    padding: 10px 0;
+    color: red;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+}
+.winebier,.imgMenuToday,.Cocktails{
+    width: 33%;
+}
+.containerdrinKSpecial{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menupara::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    width: 25px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.menupara::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 47.5%;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    border: 2px solid white;
+}
+.winebier >h1{
+text-align: center;
+}
+
+.priceMenu{
+    position: relative;
+}
+.priceMenu::after{
+    content: "";
+    width: 70px;
+    height: 2px;
+border: 2px solid white;
+position: absolute;
+top: 50%;
+left: -300%;
+}
+.coktail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.Titlelllll{
+    color: white;
+    text-align: center;
+}
+.imgMenuToday img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:900px) {
+    .MenuToday{
+        min-height: 200vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .menupara::after,.menupara::before{
+        display: none;
+    }
+    .containerdrinKSpecial{
+        display: flex;
+        flex-direction: column;
+    }
+    .Cocktails,.imgMenuToday,.winebier{
+        width: 100%;
+    }
+}

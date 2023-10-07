@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Restaurant/static/css/main.6adc372d.css",
-    "main.js": "/Restaurant/static/js/main.a8be6a4e.js",
+    "main.css": "/Restaurant/static/css/main.7af13988.css",
+    "main.js": "/Restaurant/static/js/main.91541e02.js",
     "static/media/rest.mp4": "/Restaurant/static/media/rest.3675bf255531b38cf3e1.mp4",
     "static/media/fa-solid-900.ttf": "/Restaurant/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
     "static/media/fa-brands-400.ttf": "/Restaurant/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
@@ -21,11 +21,11 @@
     "static/media/fa-v4compatibility.ttf": "/Restaurant/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
     "static/media/fa-v4compatibility.woff2": "/Restaurant/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/Restaurant/index.html",
-    "main.6adc372d.css.map": "/Restaurant/static/css/main.6adc372d.css.map",
-    "main.a8be6a4e.js.map": "/Restaurant/static/js/main.a8be6a4e.js.map"
+    "main.7af13988.css.map": "/Restaurant/static/css/main.7af13988.css.map",
+    "main.91541e02.js.map": "/Restaurant/static/js/main.91541e02.js.map"
   },
   "entrypoints": [
-    "static/css/main.6adc372d.css",
-    "static/js/main.a8be6a4e.js"
+    "static/css/main.7af13988.css",
+    "static/js/main.91541e02.js"
   ]
 }
